@@ -1,0 +1,36 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 8
+
+names:
+  [
+    "Anger",
+    "Contempt",
+    "Disgust",
+    "Fear",
+    "Happy",
+    "Neutral",
+    "Sad",
+    "Surprise",
+  ]
+  # Only include if test exists
+
+
+nc: 8
+
+names:
+  [
+    "Anger",
+    "Contempt",
+    "Disgust",
+    "Fear",
+    "Happy",
+    "Neutral",
+    "Sad",
+    "Surprise",
+  ]
+
+# Network configuration (choose other variations if desired)
+network: "yolov8n"

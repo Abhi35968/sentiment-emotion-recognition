@@ -1,0 +1,7 @@
+runs/
+yolo11n.pt
+yolov8n.pt
+train/
+valid/
+test/
+
